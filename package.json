@@ -1,0 +1,45 @@
+{
+  "name": "shortcut-url-cli",
+  "version": "0.0.0",
+  "description": "Get the URL from a web shortcut file",
+  "license": "MIT",
+  "repository": "sindresorhus/shortcut-url-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "shortcut-url": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "shortcut",
+    "alias",
+    "url",
+    "uri",
+    "get",
+    "parse",
+    "desktop",
+    "webloc",
+    "web",
+    "internet"
+  ],
+  "dependencies": {
+    "meow": "^3.3.0",
+    "shortcut-url": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
