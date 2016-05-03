@@ -13,10 +13,10 @@
     "shortcut-url": "cli.js"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && ava"
   },
   "files": [
     "cli.js"
@@ -36,10 +36,12 @@
     "internet"
   ],
   "dependencies": {
-    "meow": "^3.3.0",
-    "shortcut-url": "^1.0.0"
+    "meow": "^3.7.0",
+    "shortcut-url": "^2.0.0"
   },
   "devDependencies": {
-    "ava": "0.0.4"
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
   }
 }

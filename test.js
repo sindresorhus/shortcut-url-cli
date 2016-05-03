@@ -1,14 +1,7 @@
-'use strict';
-var test = require('ava');
-var childProcess = require('child_process');
+import test from 'ava';
+import execa from 'execa';
 
-test(function (t) {
-	t.plan(2);
-
-	childProcess.execFile('./cli.js', ['fixture/google'], {
-		cwd: __dirname
-	}, function (err, stdout) {
-		t.assert(!err, err);
-		t.assert(stdout.trim() === 'https://google.com');
-	});
+test(async t => {
+	const stdout = await execa.stdout('./cli.js', ['fixture/google'], {cwd: __dirname});
+	t.is(stdout, 'https://google.com');
 });
