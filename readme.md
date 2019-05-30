@@ -16,7 +16,7 @@ $ npm install --global shortcut-url-cli
 $ shortcut-url --help
 
   Usage
-    $ shortcut-url <filepath>
+    $ shortcut-url <file-path>
 
   Example
     $ shortcut-url google
@@ -30,8 +30,3 @@ $ shortcut-url --help
 
 - [shortcut-url](https://github.com/sindresorhus/shortcut-url) - API for this module
 - [open-shortcut-cli](https://github.com/sindresorhus/open-shortcut-cli) - Open the URL from a web shortcut file
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

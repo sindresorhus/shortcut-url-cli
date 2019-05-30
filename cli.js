@@ -5,7 +5,7 @@ const shortcutUrl = require('shortcut-url');
 
 const cli = meow(`
 	Usage
-	  $ shortcut-url <filepath>
+	  $ shortcut-url <file-path>
 
 	Example
 	  $ shortcut-url google
@@ -15,8 +15,10 @@ const cli = meow(`
 `);
 
 if (cli.input.length === 0) {
-	console.error('Specify a filepath');
+	console.error('Specify a file path');
 	process.exit(1);
 }
 
-shortcutUrl(cli.input[0]).then(console.log);
+(async () => {
+	console.log(await shortcutUrl(cli.input[0]));
+})();

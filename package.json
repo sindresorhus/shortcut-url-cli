@@ -1,50 +1,46 @@
 {
-  "name": "shortcut-url-cli",
-  "version": "2.0.0",
-  "description": "Get the URL from a web shortcut file",
-  "license": "MIT",
-  "repository": "sindresorhus/shortcut-url-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "shortcut-url": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "shortcut",
-    "alias",
-    "url",
-    "uri",
-    "get",
-    "parse",
-    "desktop",
-    "webloc",
-    "web",
-    "internet"
-  ],
-  "dependencies": {
-    "meow": "^3.7.0",
-    "shortcut-url": "^2.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.4.0",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "shortcut-url-cli",
+	"version": "2.0.0",
+	"description": "Get the URL from a web shortcut file",
+	"license": "MIT",
+	"repository": "sindresorhus/shortcut-url-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"shortcut-url": "cli.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"shortcut",
+		"alias",
+		"url",
+		"get",
+		"parse",
+		"desktop",
+		"webloc",
+		"web",
+		"internet"
+	],
+	"dependencies": {
+		"meow": "^5.0.0",
+		"shortcut-url": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"execa": "^1.0.0",
+		"xo": "^0.24.0"
+	}
 }
