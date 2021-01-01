@@ -1,4 +1,4 @@
-# shortcut-url-cli [![Build Status](https://travis-ci.org/sindresorhus/shortcut-url-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/shortcut-url-cli)
+# shortcut-url-cli
 
 > Get the URL from a [web shortcut](https://en.wikipedia.org/wiki/File_shortcut) file
 
