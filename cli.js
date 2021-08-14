@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const shortcutUrl = require('shortcut-url');
+import process from 'node:process';
+import meow from 'meow';
+import shortcutUrl from 'shortcut-url';
 
 const cli = meow(`
 	Usage
@@ -12,7 +12,9 @@ const cli = meow(`
 	  https://google.com
 
 	Leave out the extension for cross-platform compatibility
-`);
+`, {
+	importMeta: import.meta,
+});
 
 if (cli.input.length === 0) {
 	console.error('Specify a file path');

@@ -2,13 +2,11 @@
 
 > Get the URL from a [web shortcut](https://en.wikipedia.org/wiki/File_shortcut) file
 
-
 ## Install
 
 ```
 $ npm install --global shortcut-url-cli
 ```
-
 
 ## Usage
 
@@ -24,7 +22,6 @@ $ shortcut-url --help
 
   Leave out the extension for cross-platform compatibility
 ```
-
 
 ## Related
 
